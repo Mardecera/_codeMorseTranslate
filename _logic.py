@@ -14,5 +14,5 @@ def code_and_decode():
     text = str(input(msn_input_text))
 
     txt_code, txt_decode = code_decode(text)
-    show_rpt('Codificado:', format_text(txt_code))
-    show_rpt('Decodificado:', format_text(txt_decode))
+    show_rpt('Codificado: ', format_text(txt_code))
+    show_rpt('Decodificado: ', format_text(txt_decode))
