@@ -30,3 +30,9 @@ def decode_text(text):
                 acc_symbol += item
                 break
     return acc_symbol
+
+def code_decode(text):
+    code = code_text(text)
+    decode = decode_text(code)
+
+    return code, decode
