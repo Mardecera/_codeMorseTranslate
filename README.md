@@ -1,2 +1,9 @@
-# Code-Morse
-Translate text to morse code and vice versa in different languages.
+# Code Morse
+Convierte texto a codigo morse y viceversa.
+
+### Uso
+- Clonar repositorio
+- Abrir terminal y usar:
+  ```
+  python main.py
+  ```
